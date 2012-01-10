@@ -6,13 +6,16 @@ namespace bitmanipulation
 	// x = xn bn + xn-1 bn-1 + ... + x1 b1 + x0 b0.
 	
 	
-	// NAME	   OPERATOR	   PURPOSE
-	// bitwise NOT	~x	    Flip all the bits of x
-	// bitwise AND	x & y	Take the AND of each pair of bits
-	// bitwise OR	x | y	Take the OR of each pair of bits
-	// bitwise XOR	x ^ y	Take the XOR of each pair of bits
-	// left shift	x << y	Move the bits of x to the left y positions
-	// right shift	x >> y	Move the bits of x to the right y positions
+	// NAME	   		OPERATOR		PURPOSE										Meaning
+	// bitwise NOT	~x	    		Flip all the bits of x						Negation?
+	// bitwise AND	x & y			Take the AND of each pair of bits			Intersection of bits from bit strings
+	// bitwise OR	x | y			Take the OR of each pair of bits			Union of bits from bit strings,
+	// bitwise XOR	x ^ y			Take the XOR of each pair of bits			Comparison of 2 bit strings, 0 -> same, 1 - different
+	//																			p (+) q, either one is true
+	//																			a (+) b (+) c +... n, true if odd number of se if true
+	//																			=> ( a + b + c +... +n) %2 <-- summing up all vals then see even/odd
+	// left shift	x << y			Move the bits of x to the left y positions	
+	// right shift	x >> y			Move the bits of x to the right y positions
 	// unsigned right shift	x >>> y	Move the bits of x to the right y positions
 	
 	class MainClass

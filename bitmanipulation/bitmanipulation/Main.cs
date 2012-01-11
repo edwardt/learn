@@ -44,7 +44,7 @@ namespace bitmanipulation
 			                  
 		}
 		
-		static private int getBitSetCount(int num)
+		static private int getBitSetCount(int num, int integerSize)
 		{
 			int count = 0;
 			int i = 0;

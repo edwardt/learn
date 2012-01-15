@@ -36,6 +36,11 @@
   <ItemGroup>
     <Compile Include="Main.cs" />
     <Compile Include="AssemblyInfo.cs" />
+    <Compile Include="binaryAddition.cs" />
+    <Compile Include="binarysubtraction.cs" />
+    <Compile Include="binarymultiplication.cs" />
+    <Compile Include="changeofbase.cs" />
+    <Compile Include="tobinary.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>

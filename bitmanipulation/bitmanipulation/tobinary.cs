@@ -12,37 +12,37 @@ namespace bitmanipulation
 		
 		public byte[] tobinaryS64(int number)
 		{
-			
+			int size = 64;
 			
 		}
 		
 		public byte[] tobinaryS32 (int number) 
 		{
-		   
+		    int size = 32;
 			
 		}
 		
 		public byte[] tobinaryS16(int number)
 		{
-			
+			 int size = 16;
 			
 		}
 		
 		public byte[] tobinaryU64(int number)
 		{
-			
+			int size = 64;
 			
 		}
 		
 		public byte[] tobinaryU32 (int number) 
 		{
-		   
+		    int size = 32;
 			
 		}
 		
 		public byte[] tobinaryU16(int number)
 		{
-			
+			int size = 16;
 			
 		}
 		

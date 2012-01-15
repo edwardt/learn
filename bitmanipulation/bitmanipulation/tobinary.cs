@@ -4,10 +4,10 @@ namespace bitmanipulation
 {
 	public class binaryConverter
 	{
-	    int intsize = 0;
+
 		public binaryConverter (int size)
 		{
-			intsize = size;
+		
 		}
 		
 		public byte[] tobinaryS64(int number)
@@ -46,9 +46,9 @@ namespace bitmanipulation
 			
 		}
 		
-		public bool verify(int expected, byte[] bytes)
+		public bool verify(int expected, byte[] bytes, int size)
 		{
-			switch(intsize)
+			switch(size)
 			{
 				case 16:
 					return (expected == BitConverter.ToInt16(bytes,0));

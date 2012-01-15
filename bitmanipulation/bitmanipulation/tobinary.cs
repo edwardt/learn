@@ -10,43 +10,45 @@ namespace bitmanipulation
 		
 		}
 		
-		public byte[] tobinaryS64(int number)
+		static public byte[] tobinaryS64(int number)
 		{
 			int size = 64;
+			byte[] bytes = new byte[size/8];
+			
 			
 		}
 		
-		public byte[] tobinaryS32 (int number) 
+		static public byte[] tobinaryS32 (int number) 
 		{
 		    int size = 32;
-			
+			byte[] bytes = new byte[size/8];
 		}
 		
-		public byte[] tobinaryS16(int number)
+		static public byte[] tobinaryS16(int number)
 		{
 			 int size = 16;
-			
+			 byte[] bytes = new byte[size/8];
 		}
 		
-		public byte[] tobinaryU64(int number)
+		static public byte[] tobinaryU64(int number)
 		{
 			int size = 64;
-			
+			byte[] bytes = new byte[size/8];
 		}
 		
-		public byte[] tobinaryU32 (int number) 
+		static public byte[] tobinaryU32 (int number) 
 		{
 		    int size = 32;
-			
+			byte[] bytes = new byte[size/8];
 		}
 		
-		public byte[] tobinaryU16(int number)
+		static public byte[] tobinaryU16(int number)
 		{
 			int size = 16;
-			
+			byte[] bytes = new byte[size/8];
 		}
 		
-		public bool verify(int expected, byte[] bytes, int size)
+		static public bool verify(int expected, byte[] bytes, int size)
 		{
 			switch(size)
 			{

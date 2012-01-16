@@ -1,12 +1,19 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="bitmanipulation/Main.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="bitmanipulation/tobinary.cs">
     <Files>
-      <File FileName="bitmanipulation/Main.cs" Line="20" Column="1" />
+      <File FileName="bitmanipulation/Main.cs" Line="42" Column="43" />
+      <File FileName="bitmanipulation/binaryAddition.cs" Line="2" Column="1" />
+      <File FileName="bitmanipulation/binarysubtraction.cs" Line="1" Column="1" />
+      <File FileName="bitmanipulation/binarymultiplication.cs" Line="1" Column="1" />
+      <File FileName="bitmanipulation/changeofbase.cs" Line="1" Column="1" />
+      <File FileName="bitmanipulation/tobinary.cs" Line="17" Column="4" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Users/developer/Project/learn/bitmanipulation/bitmanipulation/Main.cs" line="42" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>

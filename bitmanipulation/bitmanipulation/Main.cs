@@ -39,7 +39,7 @@ namespace bitmanipulation
 				Console.WriteLine(string.Format("{0}/(2power{1}) is {2}", 20, i, 20 << i));
 			Console.WriteLine("Overthrow shifting is round robin back MOD circle");
 			
-			int bitsetcount = getBitSetCount(20);
+			int bitsetcount = getBitSetCount(20, 32);
 			Console.WriteLine(string.Format("number of bit set {0}", bitsetcount));
 			                  
 		}

@@ -14,38 +14,64 @@ namespace bitmanipulation
 		{
 			int size = 64;
 			byte[] bytes = new byte[size/8];
-			
-			
+			int quotient = number;
+			int index = 0;
+			int remainder =0;
+			while(index < size)
+			{
+				remainder = quotient%2;
+				quotient = quotient/2;
+				if (remainder == 0)
+					bytes[index] =0;
+				else {
+					bytes[index]=1;
+				}
+				index++;	
+			}	
+			return bytes;
 		}
 		
 		static public byte[] tobinaryS32 (int number) 
 		{
 		    int size = 32;
 			byte[] bytes = new byte[size/8];
+			
+			return bytes;
 		}
 		
 		static public byte[] tobinaryS16(int number)
 		{
 			 int size = 16;
 			 byte[] bytes = new byte[size/8];
+			
+			
+			return bytes;
 		}
 		
 		static public byte[] tobinaryU64(int number)
 		{
 			int size = 64;
 			byte[] bytes = new byte[size/8];
+			
+			
+			return bytes;
 		}
 		
 		static public byte[] tobinaryU32 (int number) 
 		{
 		    int size = 32;
 			byte[] bytes = new byte[size/8];
+			
+			return bytes;
 		}
 		
 		static public byte[] tobinaryU16(int number)
 		{
 			int size = 16;
 			byte[] bytes = new byte[size/8];
+			
+			
+			return bytes;
 		}
 		
 		static public bool verify(int expected, byte[] bytes, int size)
@@ -60,7 +86,7 @@ namespace bitmanipulation
 					return (expected == BitConverter.ToInt64(bytes, 0));
 				default:
 					throw new NotSupportedException(
-					intsize.ToString() + " interger size unsupported");
+					size.ToString() + " interger size unsupported");
 					
 			}
 		}

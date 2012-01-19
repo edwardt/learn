@@ -21,8 +21,9 @@ namespace bitmanipulation
 			{
 				remainder = quotient%2;
 				quotient = quotient/2;
-				if (remainder == 0)
+				if (remainder == 0) {
 					bytes[index] =0;
+				}
 				else {
 					bytes[index]=1;
 				}
